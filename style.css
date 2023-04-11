@@ -1,0 +1,92 @@
+div {
+    border:1px solid blue
+      }
+  .top-row {
+    display: flex;
+    height: 200px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .top-row > div {
+    background-color:skyblue;
+    flex:1;
+      }
+  .top-row > div:nth-child(2) {
+    margin:0 20px 0 20px;
+    
+  }
+  .mid-row {
+    height:800px;
+    background-color:skyblue;
+    margin-bottom:10px;
+  }
+  .bottom-row {
+    height:20px;
+    background-color:yellowgreen;
+  }
+.circle1 {
+  position: absolute;
+  top:2%;
+  left:5%;
+
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color:pink;
+  }
+  .circle2 {
+    position: absolute;
+    top:15%;
+    left:5%;
+  
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:pink;
+  }
+  .circle3 {
+    position: absolute;
+    top:5%;
+    left:35%;
+  
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:pink;
+  }
+  
+  .circle4 {
+    position: absolute;
+    top:25%;
+    left:15%;
+  
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:yellow;
+  }
+  .circle5 {
+    position: absolute;
+    top:5%;
+    left:20%;
+  
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color:yellow;
+  }
+  .circle6 {
+    position: absolute;
+    top:13%;
+    left:32%;
+  
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color:pink;
+  }
+  .img {
+    position: absolute;
+    top:50%;
+    left:0%;
+  }
