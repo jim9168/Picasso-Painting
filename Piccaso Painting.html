@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width" />
     <title>Picasso Painting</title>
     <Link  rel="stylesheet" href="style.css"> 
+      <style type = text/css>
+
+        div.mid-box {color: red;}
+      
+        </style>
   </head>
   <body>
     <div class="top-row"> 
       <div>Box 1</div>
       <div>Box 2</div>
       <div>Box 3</div>
-
     </div>
+
     <div class="mid-row">Main box</div>
-    <div class=bottom-row>Bottom box</div>
+
+    <div class=bottom-row style="background-color:yellowgreen">Bottom box</div>
 
     <div class="circle1"></div>
     <div class="circle2"></div>
@@ -22,6 +28,26 @@
     <div class="circle4"></div>
     <div class="circle5"></div>
     <div class="circle6"></div>
-    <img src="green figure.jpg">
-  </body>
+    <div class="img1">
+      <img src="green figure.jpg">
+    </div>
+    <div class="img2">
+      <img src="mountain.jpg">
+    </div>
+    <form action="http://localhost:52330/Home%20page.html">
+    <label for="first name">First Name:</label>
+    <input type="text" name="firstname" placeholder="firat Name" id="firstname">
+    <label for="last name">Last Name:</label>
+    <input type="text" name="lastname" placeholder="last Name" id="lastname">
+    <label for="email">Email:</label>
+    <input type="text" name="email" placeholder="email" id="email">
+    <label for="phonenumber">Phone Number:</label>
+    <input type="num" name="phonenumber" placeholder="phone number" id="phonenumber">
+    <label for="password">Password:</label>
+    <input type="text" name="password name" placeholder="password" id="password">
+    <button>Submit</button>
+
+
+
+    </form>
 </html>
